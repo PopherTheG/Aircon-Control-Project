@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Aircon-Control-Project/irtransmitter/build/CMakeFiles/bootloader
+D:/Aircon-Control-Project/irtransmitter/build/CMakeFiles/bootloader.rule
+D:/Aircon-Control-Project/irtransmitter/build/CMakeFiles/bootloader-complete.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Aircon-Control-Project/irtransmitter/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
