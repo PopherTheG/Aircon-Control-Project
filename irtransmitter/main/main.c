@@ -38,8 +38,12 @@ void app_main(void *ignore)
     rmt_tx_init();
     while (true)
     {
-        printf("Transmitting...\n");
+        printf("Transmitting OFF signal\n");
         rmt_write_items(RMT_CHANNEL_0, TURN_OFF_AC, sizeof(TURN_OFF_AC) / sizeof(TURN_OFF_AC[0]), true);
+        printf("Transmission successul\n");
+        vTaskDelay(10000 / portTICK_PERIOD_MS);
+        printf("Transmitting ON signal\n");
+        rmt_write_items(RMT_CHANNEL_0, TURN_ON_AC, sizeof(TURN_ON_AC) / sizeof(TURN_ON_AC[0]), true);
         printf("Transmission successul\n");
         vTaskDelay(10000 / portTICK_PERIOD_MS);
     }
