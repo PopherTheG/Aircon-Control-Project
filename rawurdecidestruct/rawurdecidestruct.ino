@@ -85,7 +85,14 @@ void printpulses(void) {
     Serial.print(pulses[i][0] * RESOLUTION, DEC);
     Serial.print(", 0, ");
     Serial.print(pulses[i][1] * RESOLUTION, DEC);
-    Serial.print(", 1 }}},\t\t\t//");
+    if ( i == currentpulse - 1)
+    {
+      Serial.print(", 1 }}}\t\t\t//");
+    }
+    else 
+    {
+      Serial.print(", 1 }}},\t\t\t//");
+    }
     Serial.println(i + 1);
   }
 
