@@ -577,17 +577,17 @@ void app_main(void *ignore)
 #ifdef RUN_TEST_CODES
     while (true)
     {
-        // test_TURN_ON_AC_XX_COOL_LOWFAN();
-        // test_TURN_ON_AC_XX_COOL_MEDFAN();
-        // test_TURN_ON_AC_XX_COOL_HIGHFAN();
-        // test_TURN_ON_AC_25_COOL_VARFAN();
-        // test_TURN_ON_AC_XX_DRY();
-        // test_TURN_ON_AC_FAN_VARFAN();
-        // test_TURN_ON_AC_XX_AUTO();
-        // test_VARYAIRDIRECTION_XX_COOL_LOWFAN();
-        // test_TOGGLESWING_XX_DRY();
-        // test_TOGGLETURBO_XX_COOL_VARFAN();
-        // rmt_write_items(IR_RMT_CHANNEL, TURN_ON_AC_28_COOL_MEDFAN, sizeof(TURN_ON_AC_28_COOL_MEDFAN) / sizeof(TURN_ON_AC_28_COOL_MEDFAN[0]), true);
+        test_TURN_ON_AC_XX_COOL_LOWFAN();
+        test_TURN_ON_AC_XX_COOL_MEDFAN();
+        test_TURN_ON_AC_XX_COOL_HIGHFAN();
+        test_TURN_ON_AC_25_COOL_VARFAN();
+        test_TURN_ON_AC_XX_DRY();
+        test_TURN_ON_AC_FAN_VARFAN();
+        test_TURN_ON_AC_XX_AUTO();
+        test_VARYAIRDIRECTION_XX_COOL_LOWFAN();
+        test_TOGGLESWING_XX_DRY();
+        test_TOGGLETURBO_XX_COOL_VARFAN();
+        rmt_write_items(IR_RMT_CHANNEL, TURN_ON_AC_28_COOL_MEDFAN, sizeof(TURN_ON_AC_28_COOL_MEDFAN) / sizeof(TURN_ON_AC_28_COOL_MEDFAN[0]), true);
     }
 #endif
 }

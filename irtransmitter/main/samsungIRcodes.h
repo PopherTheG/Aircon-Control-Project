@@ -1,7 +1,8 @@
 #ifndef SAMSUNGIRCODES_H
 #define SAMSUNGIRCODES_H
 #include "driver/rmt.h"
-/*  (POWER) - (TEMP) - (MODE) - (FANSPEED)
+/*  
+    (POWER) - (TEMP) - (MODE) - (FANSPEED)
     TOGGLE SWING ->  when activated functionlality to swing or not to swing the blades
     TOGGLE TURBO  -> when activated turbo functionality goes all out in achieving the desired temperature at
                      the shortest time possible. Maximum power is used in this mode, withe the compressor
@@ -60,7 +61,7 @@
 
             Sometimes, even the fan is turned off after the desired temerature is reached saving even more energy.
 
-            Cool mode has the feature to change toggle swing, change air direction, and change tempertures.
+            Auto mode has the feature to toggle swing, change air direction, and change tempertures.
 
     SUMMARY OF MODES AND FEATURES
     ----------------------------------------------------------------------------------------------------------------------------
